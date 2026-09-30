@@ -1,0 +1,9 @@
+[
+  { "id": "welcome", "order": 1, "text": "Welcome to iWeGain! Track every set and watch your progress grow." },
+  { "id": "warm-up", "order": 2, "text": "Warm up for 5–10 minutes before lifting heavy." },
+  { "id": "progressive-overload", "order": 3, "text": "Add a little weight or one more rep each week: that's progressive overload." },
+  { "id": "form-first", "order": 4, "text": "Good form beats heavy weight. Lower the load if your technique breaks down." },
+  { "id": "rest", "order": 5, "text": "Muscles grow while you rest. Aim for 7–9 hours of sleep." },
+  { "id": "protein", "order": 6, "text": "Spread your protein intake across the day to support recovery." },
+  { "id": "consistency", "order": 7, "text": "Consistency wins. Three workouts a week beat one perfect week a month." }
+]

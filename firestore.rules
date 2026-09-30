@@ -1,0 +1,11 @@
+rules_version = '2';
+
+// Clients never talk to Firestore directly: the apps read data through the
+// Cloud Functions REST API, which uses the Admin SDK and bypasses these rules.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
